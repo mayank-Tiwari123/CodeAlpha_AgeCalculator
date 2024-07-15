@@ -1,0 +1,76 @@
+*{
+    font-family:'Century Gothic',sans-serif;
+    text-transform: capitalize;
+}
+h1{
+    text-transform: uppercase;
+    color:aqua;
+    margin-left: 25%;
+}
+h1 sub{
+    font-size: 10px;
+    color:red;
+}
+h1 sub b{
+    font-size: 19px;
+    color:blue;
+}
+body{
+    background-image: url(mayankcoder.webp);
+}
+.parent{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.parent input{
+    padding:8px 4px;
+    font-size: 18px;
+    font-family:'Century Gothic',sans-serif;
+    margin-right: 5px;
+    margin-left: 170px;
+    height:100%;
+    border-color: rgba(0,0,0,0.1);
+    width: 400px;
+}
+.parent button{
+    font-family:'Century Gothic',sans-serif;
+    font-size: 20px;
+    padding:8px;
+    background: white;
+    border:solid 2px white;
+    color:red;
+    font-weight: 500;
+    transition:all 0.3s ease;
+    cursor: pointer;
+    font-weight: 800;
+}
+.parent ul{
+    display:flex;
+    list-style:none;
+    justify-content:center;
+    margin-top:90px;
+}
+.parent ul li{
+    width:120px;
+    height:150px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}
+.parent ul li span{
+    border-radius: 5px;
+    background:white;
+    text-align: center;
+    display:block;
+    color:#084590;
+    font-size: 30px;
+    width:120px;
+    height:80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
